@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  
+</ion-header>
+
+<ion-content>
+  <a id="page1" class="button" [routerLink]="['/page1']">
+    <button type="button" >
+      <img src="https://luizanormey.com/wp-content/uploads/2017/09/luizanormey-1504275320169.jpg" width="320" height="165" alt="Deu ruim lek">
+    </button>
+    </a>
+   
+  <a id="page2" class="button" [routerLink]="['/page2']">
+    <button type="button" >
+      <img src="https://cdn.folhape.com.br/img/c/1200/900/dn_arquivo/2020/02/google-maps.jpg" width="320" height="175" alt="volta">
+    </button>
+  </a>
+<div>
+  <table>
+      <tr>
+      <td>
+          <div>
+              <a id="page3" class="button" [routerLink]="['/page3']" style="float: right; vertical-align: middle;  font-family:helvetica, serif;text-decoration:none;"><img src="https://play-lh.googleusercontent.com/Jsbb0EeesKUbDTl3UyDKO6sNz45RCMh7gnoI6giQcQz1f5Mj0J4TRh7Psyu53vShh-qm" width="160" height="145" alt="volta"></a>
+          </div>
+      </td>
+      <td>
+          <div>
+              <a id="page4" class="button" [routerLink]="['/page4']" style="float: center; vertical-align: middle;  font-family:helvetica, serif;text-decoration:none;"><img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-livro-aberto-isolado-sobre-fundo-branco-livros-e-cole%C3%A7%C3%A3o-literatura-moda-do-s%C3%ADmbolo-moderno-para-o-logotipo-web-app-204210313.jpg" width="160" height="145" alt="volta"></a>
+          </div>
+      </td>       
+      </tr>
+  </table>
+</div>
+
+<div>
+  <table>
+      <tr>
+      <td>
+          <div id="page5">
+              <a  class="button" [routerLink]="['/page5']" style="float: right; vertical-align: middle;  font-family:helvetica, serif;text-decoration:none;"><img src="https://varotti.vteximg.com.br/arquivos/ids/172671-1000-1000/35590_MDF-Preto-Trama-Duratex_6mm.jpg?v=637149455215770000" width="100" height="67" alt="volta"></a>
+              
+            </div>
+      </td>
+      <td>
+          <div>
+              <a id="page6" class="button" [routerLink]="['/page6']" style="float: center; vertical-align: middle;  font-family:helvetica, serif;text-decoration:none;"><img src="https://cdn-icons-png.flaticon.com/512/3524/3524636.png" width="100" height="67" alt="volta"></a>
+          </div>
+      </td>       
+      <td>
+        <div>
+            <a id="page7" class="button" [routerLink]="['/page7']" style="float: left; vertical-align: middle;  font-family:helvetica, serif;text-decoration:none;"><img src="https://www.publicdomainpictures.net/pictures/280000/nahled/question-mark-1544553868vD2.jpg" width="100" height="67" alt="volta"></a>
+        </div>
+    </td>       
+      </tr>
+  </table>
+</div>
+</ion-content>
+
+
+
+
+
